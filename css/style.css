@@ -1,0 +1,286 @@
+/*---------------MAIN SELECTORS--------------- */
+body{
+    background-color: #EEEEEE;
+    margin: 0;
+    text-align: center;
+    font-family:"Merriweather", serif ;
+}
+/*---------------START OF TOP CONTAINER--------------- */
+
+/*  UNIT Conversion: 100% == 1rem == 16px    */
+.top-container{
+    background-color: #EFFFFD;
+}
+
+
+
+.Name{
+    color: #9B72AA;
+    font-family: "Sacramento", sans-serif;
+    font-size: 5.625rem;
+    margin: 10rem auto 0 37rem;
+    position: absolute;
+    
+}
+.CV{
+    font-family: "Merriweather", sans-serif;
+    color: #9B72AA;
+    
+    text-decoration: none;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+}
+.CV:hover{
+    transition:all .3s ease-in-out;
+    color: black;
+    
+}
+
+.subdetails{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    position: absolute;
+    margin: 19rem auto auto 49rem;
+}
+.mountain{
+    width: 100%;
+    height: 32em;
+}
+.top-cloud{
+    position: absolute;
+    top: 20%;
+    left: 16%;
+}
+.bottom-cloud{
+    position: absolute;
+    top: 6%;
+    right: 10%;
+}
+/*---------------END OF TOP CONTAINER--------------- */
+
+/*---------------START OF MIDDLE CONTAINER--------------- */
+.skills{
+    color: #9B72AA;
+}
+
+h3{
+    color: #986EAD;
+}
+
+p{
+    color: black;
+}
+
+hr{
+    border: dotted #9B72AA 6px;
+    border-bottom: none;
+    width: 2%;
+    margin: 20px auto 80px auto;
+}
+
+.hey{
+    color: #9B72AA;
+    font-size: 2rem;
+    /* animation: slide_right 3s forwards; */
+    
+}
+
+.hey-p{
+    width: 85%;
+    margin: auto;
+}
+
+.profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.student-img{
+    width: 20%;
+}
+
+.why{
+    font-size: 2rem;
+}
+
+.career-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+
+.degreeHat-img{
+    width: 25%;
+    float: left;
+    margin: auto 80px auto auto;
+}
+
+.coding-img{
+    width: 25%;
+    float: right;
+    margin: auto auto auto 80px;
+}
+
+.website-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+}
+
+.getInTouch{
+    color: #FF7A5A;
+}
+
+.contact-h{
+    line-height: 2;
+}
+
+.contact-p{
+    line-height: 2;
+}
+.button {
+    /* animation-name: opacityOn;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-delay: 1s; */
+    border-radius: 5px;
+    background-color: #9B72AA;
+    border: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    transition: all 0.5s;
+    width: 200px;
+    line-height: 3;
+}
+  
+.button span {
+    cursor: grab;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -30px;
+    transition: 1s;
+    touch-action: auto;
+
+}
+  
+.button:hover span {
+    padding-right: 30px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* @keyframes opacityOn{
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
+/* 
+@keyframes slide_right{
+    from {
+        opacity: 0;
+        transform: translateX(-500px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide_left{
+    0% {
+        opacity: 0;
+        transform: translateX(500px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
+
+/*---------------END OF MIDDLE CONTAINER--------------- */
+
+/*---------------START OF BOTTOM CONTAINER--------------- */
+
+.bottom{
+    background-color: #9B72AA;
+    width: 100%;
+    margin: auto;
+}
+.linkedin-link{
+    width: 5%;
+    margin: 40px 20px 10px auto;
+}
+
+.github-link{
+    width: 5%;
+    margin: 40px auto 10px 20px;
+    
+}
+
+.copyright{
+    color: #EEEEEE;
+    font-size: 0.75rem;
+    font-weight: 100;
+    line-height: 4;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/*---------------END OF BOTTOM CONTAINER--------------- */
+@media screen and (max-width: 992px){
+    .mountain{
+        width: 100%;
+        height: 32%;
+    }
+    .Name{
+        font-size: 2.5em;
+        margin: 2.5em auto auto 5.7em;
+        text-align: center;
+    }
+    .top-cloud{
+        top: 16%;
+        left: 1%;
+    }
+    .subdetails{
+        font-size: 1em;
+        margin: 11.5em auto auto 15.7em;
+        text-align: center;
+    }
+    .copyright{
+        margin: 10px auto 0 auto;
+    }
+    p{
+        font-size: 0.9em;
+    }
+}
