@@ -288,5 +288,8 @@ hr{
     p{
         font-size: 0.9em;
     }
+    .degreeHat-img{
+        float: right;
+    }
     
 }
