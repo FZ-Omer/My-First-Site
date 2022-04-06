@@ -265,21 +265,21 @@ hr{
     }
     .Name{
         font-size: 2.5em;
-        margin: 9% auto auto 22%;
+        margin: 15% auto auto 35%;
         text-align: center;
     }
     .top-cloud{
         width: 15%;
-        top: 11%;
+        top: 14%;
         left: 1%;
     }
     .bottom-cloud{
         width: 15%;
-        right: 3%;
+        right: 2%;
     }
     .subdetails{
         font-size: 0.8em;
-        margin: 13% auto auto 27%;
+        margin: 30% auto auto 45%;
         text-align: center;
     }
     .copyright{
@@ -288,7 +288,5 @@ hr{
     p{
         font-size: 0.9em;
     }
-    .career-h3{
-        text-align: right;
-    }
+    
 }
