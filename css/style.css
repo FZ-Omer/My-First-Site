@@ -288,4 +288,7 @@ hr{
     p{
         font-size: 0.9em;
     }
+    .career-h3{
+        text-align: right;
+    }
 }
