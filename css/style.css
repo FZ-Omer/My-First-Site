@@ -270,12 +270,12 @@ hr{
     }
     .top-cloud{
         width: 15%;
-        top: 14%;
+        top: 11%;
         left: 1%;
     }
     .bottom-cloud{
         width: 15%;
-        right: 2%;
+        right: 3%;
     }
     .subdetails{
         font-size: 0.8em;
